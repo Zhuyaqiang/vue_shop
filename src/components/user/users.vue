@@ -167,7 +167,7 @@ export default {
       return cb(new Error('请输入合法的手机号'))
     }
     return {
-      // 获取用户列表的参数对象
+      // 获取用户列表的参数对象gou
       queryInfo: {
         query: '',
         // 当前页数
