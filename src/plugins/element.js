@@ -9,6 +9,9 @@ import {
   Tabs, TabPane, Steps, Step, CheckboxGroup, Checkbox,
   Upload
 } from 'element-ui' // 按需导入
+
+import Timeline from '../plugins/timeline/index.js'
+import TimelineItem from '../plugins/timelineitem/index.js'
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
@@ -44,6 +47,8 @@ Vue.use(Step)
 Vue.use(CheckboxGroup)
 Vue.use(Checkbox)
 Vue.use(Upload)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 // 全局挂载
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
